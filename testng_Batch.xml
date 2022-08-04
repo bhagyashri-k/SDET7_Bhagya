@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="Suite" parallel="classes">
 	<listeners>
 		<listener class-name="com.testNG.practice.ListenerImpliments"></listener>
 	</listeners>
@@ -12,5 +12,5 @@
 			<class name="vtiger_tc.TC_104_Create_Cont_Del_OrgTest" />
 			<class name="vtiger_tc.TC_105_Create_Org_DDTest" />
 		</classes>
-	</test> <!-- Test -->
+	</test> 
 </suite> <!-- Suite -->
